@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+
+@media (min-width: 100px){
+  .Header{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: purple;
+    color: white;
+    padding: 30px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 600px){
+  .Header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: purple;
+    color: white;
+    padding: 40px;
+    font-size: 22px;
+  }
+}
+
+
+
+@media (min-width: 600px){
+  .imageConatiner{
+      text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: grey;
+    color: white;
+    padding: 30px;
+   
+    
+  }
+  img {
+      width: 150px;
+      height: 150px;
+      padding: 5px;
+      margin: auto;
+  }
+}
+
+@media (min-width: 100px){
+  .imageConatiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: grey;
+    color: white;
+  
+  }
+  img {
+      width: 150px;
+      height: 150px;
+      padding: 5px;
+      margin: auto;
+
+  }
+}
+
+
